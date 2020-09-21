@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "print-manager-dotnet-core-cs", "print-manager-dotnet-core-cs\print-manager-dotnet-core-cs.csproj", "{A8D5CED2-E6A5-4166-BAE9-D2F89A004FBD}"
+EndProject
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "print-manager-dotnet-core-vb", "print-manager-dotnet-core-vb\print-manager-dotnet-core-vb.vbproj", "{31F4F074-BC78-46E0-8918-5587DF050BDF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EEDFA6D7-BFFA-43A0-AB72-F3B51BA7DF9F}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8D5CED2-E6A5-4166-BAE9-D2F89A004FBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8D5CED2-E6A5-4166-BAE9-D2F89A004FBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8D5CED2-E6A5-4166-BAE9-D2F89A004FBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8D5CED2-E6A5-4166-BAE9-D2F89A004FBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31F4F074-BC78-46E0-8918-5587DF050BDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31F4F074-BC78-46E0-8918-5587DF050BDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31F4F074-BC78-46E0-8918-5587DF050BDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31F4F074-BC78-46E0-8918-5587DF050BDF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A0F01101-5896-433F-911E-094706DD324F}
+	EndGlobalSection
+EndGlobal
