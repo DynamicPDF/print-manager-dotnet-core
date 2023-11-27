@@ -8,7 +8,7 @@ namespace print_manager_dotnet_core_cs
         {
             Console.WriteLine("Printing Examples Started");
 
-            SimplePrint.Run();
+            //SimplePrint.Run();
 
             // Uncomment examples below to run them
 
@@ -22,6 +22,8 @@ namespace print_manager_dotnet_core_cs
             //DuplexExample.RunVerticalDuplex();
 
             //EventsExample.Run();
+
+            MultiplePages.Run();
 
             //MultiplePagesPerSheet.Run();
 
