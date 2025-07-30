@@ -4,6 +4,9 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
     <RootNamespace>print_manager_dotnet_core_cs</RootNamespace>
+    <StartupObject>print_manager_dotnet_core_cs.Program</StartupObject>
+    <ApplicationIcon />
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
 
   <ItemGroup>

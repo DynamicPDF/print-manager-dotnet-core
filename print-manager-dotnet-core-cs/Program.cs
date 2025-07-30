@@ -8,7 +8,11 @@ namespace print_manager_dotnet_core_cs
         {
             Console.WriteLine("Printing Examples Started");
 
-            //SimplePrint.Run();
+            SimplePrint.Run();
+
+            //SpecificPrinter.Run();
+
+            //ByteArrayExample.Run();
 
             // Uncomment examples below to run them
 
@@ -23,7 +27,7 @@ namespace print_manager_dotnet_core_cs
 
             //EventsExample.Run();
 
-            MultiplePages.Run();
+            //MultiplePages.Run();
 
             //MultiplePagesPerSheet.Run();
 
