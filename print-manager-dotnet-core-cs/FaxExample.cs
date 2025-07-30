@@ -7,7 +7,7 @@ namespace print_manager_dotnet_core_cs
         public static void Run()
         {
             FaxPrintJob faxJob = new FaxPrintJob("My Fax Machine", "555-465-1177", Util.GetPath("Resources/DocumentA.pdf"));
-            faxPrintJob.Print();
+            faxJob.Print();
         }
     }
 }
