@@ -10,6 +10,10 @@ namespace print_manager_dotnet_core_cs
 
             SimplePrint.Run();
 
+            //SpecificPrinter.Run();
+
+            //ByteArrayExample.Run();
+
             // Uncomment examples below to run them
 
             //AlignExample.RunHorizontalAlign();
@@ -22,6 +26,8 @@ namespace print_manager_dotnet_core_cs
             //DuplexExample.RunVerticalDuplex();
 
             //EventsExample.Run();
+
+            //MultiplePages.Run();
 
             //MultiplePagesPerSheet.Run();
 
