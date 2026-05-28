@@ -1,6 +1,6 @@
 ﻿Imports ceTe.DynamicPDF.Printing
 
-Public Class PrintOptions
+Public Class PrintOptionsExample
     Public Shared Sub Run()
         ' Create a print job with the document to be printed to the default printer
         Dim MyPrintJob As PrintJob = New PrintJob(Printer.Default, Util.GetPath("Resources/DocumentA.pdf"), 3, 3)

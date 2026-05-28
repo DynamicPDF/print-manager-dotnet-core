@@ -1,6 +1,13 @@
 ﻿Imports ceTe.DynamicPDF.Printing
 
 Public Class PageScalingExample
+
+    Public Shared Sub Run()
+        RunActualPaperScaling()
+        RunMultiPageScaling()
+        RunPageEdgeScaling()
+        RunPercentageScaling()
+    End Sub
     Public Shared Sub RunActualPaperScaling()
         Dim pdf As InputPdf = New InputPdf(Util.GetPath("Resources/DocumentA.pdf"))
 

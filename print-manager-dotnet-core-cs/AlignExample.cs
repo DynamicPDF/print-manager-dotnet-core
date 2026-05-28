@@ -5,6 +5,12 @@ namespace print_manager_dotnet_core_cs
 {
     class AlignExample
     {
+        public static void Run()
+        {
+            RunVerticalAlign();
+            RunHorizontalAlign();
+        }
+
         public static void RunVerticalAlign()
         {
             // Create a print job with the document to be printed to the default printer

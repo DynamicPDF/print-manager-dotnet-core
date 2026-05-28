@@ -8,40 +8,29 @@ namespace print_manager_dotnet_core_cs
         {
             Console.WriteLine("Printing Examples Started");
 
+            AlignExample.Run();
+            AttachmentsExample.Run();
+            AvailablePrintersExample.Run();
+            ByteArrayExample.Run();
+            DisposeExample.Run();
+            DuplexExample.Run();
+            EventsExample.Run();
+            FaxExample.Run();
+            InputPagesExample.Run();
+            InputSourceExample.Run();
+            MultiplePages.Run();
+            MultiplePagesPerSheet.Run();
+            PageRangeExample.Run();
+            PageScalingExample.Run();
+            PrintOptionsExample.Run();
+            PrintAreaExample.Run();
+            ReadPrinterDetails.Run();
+            ResolutionExample.Run();
+            SecuredExample.Run();
             SimplePrint.Run();
-
-            //SpecificPrinter.Run();
-
-            //ByteArrayExample.Run();
-
-            // Uncomment examples below to run them
-
-            //AlignExample.RunHorizontalAlign();
-            //AlignExample.RunVerticalAlign();
-
-            //AttachmentsExample.Run();
-
-            //DuplexExample.RunHorizontalDuplex();
-            //DuplexExample.RunSimplex();
-            //DuplexExample.RunVerticalDuplex();
-
-            //EventsExample.Run();
-
-            //MultiplePages.Run();
-
-            //MultiplePagesPerSheet.Run();
-
-            //PageScalingExample.RunActualPaperScaling();
-            //PageScalingExample.RunMultiPageScaling();
-            //PageScalingExample.RunPageEdgeScaling();
-            //PageScalingExample.RunPercentageScaling();
-
-            //PrintOptions.Run();
-
-            //ReadPrinterDetails.Run();
+            SpecificPrinter.Run();
 
             Console.WriteLine("Printing Examples Completed");
-            Console.ReadKey();
         }
     }
 }

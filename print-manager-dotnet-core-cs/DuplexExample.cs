@@ -5,6 +5,13 @@ namespace print_manager_dotnet_core_cs
 {
     class DuplexExample
     {
+        public static void Run()
+        {
+            RunHorizontalDuplex();
+            RunSimplex();
+            RunVerticalDuplex();
+
+        }
         public static void RunHorizontalDuplex()
         {
             // Create a print job with the document to be printed to the default printer

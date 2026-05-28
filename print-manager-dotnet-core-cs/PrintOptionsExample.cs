@@ -3,7 +3,7 @@ using ceTe.DynamicPDF.Printing;
 
 namespace print_manager_dotnet_core_cs
 {
-    class PrintOptions
+    class PrintOptionsExample
     {
         public static void Run()
         {

@@ -1,6 +1,12 @@
 ﻿Imports ceTe.DynamicPDF.Printing
 
 Public Class AlignExample
+
+    Public Shared Sub Run()
+        RunVerticalAlign()
+        RunHorizontalAlign()
+    End Sub
+
     Public Shared Sub RunVerticalAlign()
         ' Create a print job with the document to be printed to the default printer
         Dim MyPrintJob As PrintJob = New PrintJob(Printer.Default, Util.GetPath("Resources/DocumentA.pdf"))

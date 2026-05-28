@@ -5,6 +5,13 @@ namespace print_manager_dotnet_core_cs
 {
     class PageScalingExample
     {
+        public static void Run()
+        {
+            RunActualPaperScaling();
+            RunMultiPageScaling();
+            RunPageEdgeScaling();
+            RunPercentageScaling();
+        }
         public static void RunActualPaperScaling()
         {
             InputPdf pdf = new InputPdf(Util.GetPath("Resources/DocumentA.pdf"));

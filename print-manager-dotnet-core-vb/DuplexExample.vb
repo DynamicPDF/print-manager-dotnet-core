@@ -1,6 +1,14 @@
 ﻿Imports ceTe.DynamicPDF.Printing
 
 Public Class DuplexExample
+
+    Public Shared Sub Run()
+        RunHorizontalDuplex()
+        RunSimplex()
+        RunVerticalDuplex()
+    End Sub
+
+
     Public Shared Sub RunHorizontalDuplex()
         ' Create a print job with the document to be printed to the default printer
         Dim MyPrintJob As PrintJob = New PrintJob(Printer.Default, Util.GetPath("Resources/DocumentA.pdf"))
