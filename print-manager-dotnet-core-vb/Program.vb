@@ -19,6 +19,7 @@ Module Program
         PageScalingExample.Run()
         PrintAreaExample.Run()
         PrintOptionsExample.Run()
+        PrintPageOptionsExample.Run()
         ReadPrinterDetails.Run()
         ResolutionExample.Run()
         SecuredExample.Run()

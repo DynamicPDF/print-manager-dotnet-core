@@ -23,6 +23,7 @@ namespace print_manager_dotnet_core_cs
             PageRangeExample.Run();
             PageScalingExample.Run();
             PrintOptionsExample.Run();
+            PrintPageOptionsExample.Run();
             PrintAreaExample.Run();
             ReadPrinterDetails.Run();
             ResolutionExample.Run();
